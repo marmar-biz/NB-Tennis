@@ -1,0 +1,448 @@
+TASK: Build a Complete Persian Tennis Coach Registration PWA
+
+PROJECT NAME:
+NB Tennis
+
+GOAL:
+Create a professional Persian (RTL) Progressive Web Application (PWA) for tennis coach Nazanin in Rasht.
+
+The application must allow new students to complete a registration form and send all information directly to the coach via WhatsApp.
+
+TECH STACK:
+
+* Mobile First
+* Responsive Design
+* RTL Layout
+* Static Deployment Ready
+* Replit Compatible
+* GitHub Compatible
+* Netlify Compatible
+* Cloudflare Compatible
+
+DO NOT REQUIRE A BACKEND.
+
+==================================
+BRANDING
+
+Brand Name:
+NB Tennis
+
+Coach Name:
+نازنین
+
+Instagram:
+https://www.instagram.com/tennis.rasht.nazanin
+
+WhatsApp Number:
+989112420129
+
+Brand Theme:
+Inspired by clay tennis courts and tennis balls.
+
+Colors:
+
+* White (#FFFFFF)
+* Cream (#FFF8EF)
+* Tennis Ball Green (#B7D84B)
+* Clay Orange (#E98A3A)
+* Soft Dark Gray (#333333)
+
+Design Style:
+
+* Premium
+* Modern
+* Minimal
+* Sporty
+* Professional
+
+==================================
+LOGO
+
+Create a custom NB logo.
+
+Requirements:
+
+* Letters “NB”
+* Modern style
+* Tennis inspired
+* Suitable for website branding
+* Suitable for mobile app icon
+* Use tennis green and clay orange colors
+* Clean white background
+
+==================================
+HOME PAGE
+
+Create a professional landing page.
+
+Hero Section:
+
+Title:
+“آموزش تخصصی تنیس در رشت”
+
+Subtitle:
+“ثبت‌نام کلاس‌های خصوصی و نیمه خصوصی تنیس با مربی نازنین”
+
+Description:
+“برای شروع یادگیری تنیس یا ارتقای مهارت خود، فرم زیر را تکمیل کنید تا جهت هماهنگی کلاس با شما تماس گرفته شود.”
+
+CTA Button:
+“ثبت درخواست کلاس”
+
+Include:
+
+* Tennis themed illustration
+* Tennis ball graphics
+* Clay court inspired visuals
+
+==================================
+REGISTRATION FORM
+
+Title:
+“فرم ثبت‌نام شاگرد جدید”
+
+Fields:
+
+نام *
+نام خانوادگی *
+شماره تماس *
+سن
+جنسیت
+
+Gender Options:
+
+* خانم
+* آقا
+
+سطح تنیس
+
+Options:
+
+* بدون سابقه
+* مبتدی
+* متوسط
+* پیشرفته
+
+سابقه ورزشی
+
+سابقه تنیس
+
+هدف از شرکت در کلاس
+
+Options:
+
+* یادگیری از صفر
+* پیشرفت تکنیک
+* آمادگی مسابقه
+* تناسب اندام
+* تفریح و سلامتی
+
+سابقه بیماری
+
+سابقه آسیب بدنی
+
+محدودیت پزشکی یا حرکتی
+
+دست غالب
+
+Options:
+
+* راست دست
+* چپ دست
+
+روزهای مورد نظر برای کلاس *
+
+Checkboxes:
+
+* شنبه
+* یکشنبه
+* دوشنبه
+* سه شنبه
+* چهارشنبه
+* پنجشنبه
+* جمعه
+
+ساعت‌های مورد نظر برای کلاس *
+
+Placeholder:
+“مثال: شنبه و دوشنبه ساعت ۱۸ تا ۲۰”
+
+توضیحات تکمیلی
+
+==================================
+VALIDATION
+
+Required:
+
+* نام
+* نام خانوادگی
+* شماره تماس
+* حداقل یک روز انتخاب شود
+* ساعت پیشنهادی وارد شود
+
+Persian validation messages.
+
+Example:
+
+“لطفاً نام خود را وارد کنید”
+
+“شماره تماس الزامی است”
+
+“حداقل یک روز برای کلاس انتخاب کنید”
+
+==================================
+WHATSAPP INTEGRATION
+
+Coach Number:
+
+989112420129
+
+On submit:
+
+Generate a WhatsApp message automatically.
+
+Message Format:
+
+سلام وقت بخیر
+
+درخواست ثبت‌نام کلاس تنیس
+
+نام:
+[نام]
+
+نام خانوادگی:
+[نام خانوادگی]
+
+شماره تماس:
+[شماره تماس]
+
+سن:
+[سن]
+
+جنسیت:
+[جنسیت]
+
+سطح تنیس:
+[سطح]
+
+سابقه ورزشی:
+[مقدار]
+
+سابقه تنیس:
+[مقدار]
+
+هدف از کلاس:
+[مقدار]
+
+سابقه بیماری:
+[مقدار]
+
+سابقه آسیب بدنی:
+[مقدار]
+
+محدودیت پزشکی:
+[مقدار]
+
+دست غالب:
+[مقدار]
+
+روزهای پیشنهادی:
+[مقدار]
+
+ساعت‌های پیشنهادی:
+[مقدار]
+
+توضیحات تکمیلی:
+[مقدار]
+
+Use:
+
+https://wa.me/989112420129
+
+Requirements:
+
+* Encode Persian text properly
+* Open WhatsApp in new tab
+* Mobile opens WhatsApp app
+* Desktop opens WhatsApp Web
+* No iframe
+* No popup
+* No backend
+
+Submit Button Text:
+
+“ارسال اطلاعات به واتساپ مربی”
+
+Use WhatsApp icon.
+
+==================================
+INSTAGRAM
+
+Instagram URL:
+
+https://www.instagram.com/tennis.rasht.nazanin
+
+Add Instagram button:
+
+Header
+Footer
+Contact Section
+
+Label:
+
+“اینستاگرام مربی”
+
+Requirements:
+
+target=”_blank”
+
+rel=“noopener noreferrer”
+
+Instagram icon included.
+
+==================================
+ABOUT COACH SECTION
+
+Title:
+
+“درباره مربی”
+
+Text:
+
+“آموزش تخصصی تنیس در رشت با بیش از ۱۰ سال سابقه فعالیت. برگزاری کلاس‌های خصوصی و نیمه خصوصی برای تمامی سنین و سطوح.”
+
+Add tennis-themed visual elements.
+
+==================================
+CONTACT SECTION
+
+Title:
+
+“راه‌های ارتباطی”
+
+Items:
+
+Instagram
+WhatsApp
+
+WhatsApp Number:
+
+09112420129
+
+Instagram:
+
+@tennis.rasht.nazanin
+
+==================================
+PWA CONFIGURATION
+
+Generate:
+
+/public/icons/icon-180.png
+/public/icons/icon-192.png
+/public/icons/icon-512.png
+
+Use NB Logo.
+
+Manifest:
+
+{
+“name”: “NB Tennis”,
+“short_name”: “NB Tennis”,
+“start_url”: “/”,
+“display”: “standalone”,
+“background_color”: “#FFF8EF”,
+“theme_color”: “#E98A3A”,
+“icons”: [
+{
+“src”: “/icons/icon-192.png”,
+“sizes”: “192x192”,
+“type”: “image/png”
+},
+{
+“src”: “/icons/icon-512.png”,
+“sizes”: “512x512”,
+“type”: “image/png”
+}
+]
+}
+
+Update Head Tags:
+
+<link rel="manifest" href="/manifest.json" />
+<link rel="apple-touch-icon" sizes="180x180" href="/icons/icon-180.png" />
+<meta name="apple-mobile-web-app-title" content="NB Tennis" />
+<meta name="application-name" content="NB Tennis" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="theme-color" content="#E98A3A" />
+
+==================================
+SEO
+
+Title:
+
+آموزش تنیس در رشت | NB Tennis
+
+Description:
+
+ثبت‌نام آنلاین کلاس‌های خصوصی و نیمه خصوصی تنیس در رشت با مربی نازنین و ارسال اطلاعات از طریق واتساپ.
+
+==================================
+RESPONSIVE DESIGN
+
+Must work perfectly on:
+
+* iPhone
+* Android
+* Tablet
+* Desktop
+
+Requirements:
+
+* Mobile First
+* RTL Correct
+* Large Buttons
+* Modern Cards
+* Smooth Animations
+* Fast Loading
+* Accessible Inputs
+
+==================================
+DO NOT
+
+Do not create Login page
+Do not create Admin panel
+Do not create Payment system
+Do not create Database
+Do not store medical information
+Do not require Backend
+Do not use iframe
+Do not add unnecessary dependencies
+
+==================================
+FINAL RESULT
+
+Create a complete production-ready Persian Tennis Registration PWA including:
+
+✓ NB custom logo
+
+✓ Tennis themed design
+
+✓ Coach introduction section
+
+✓ Student registration form
+
+✓ WhatsApp registration submission
+
+✓ Instagram integration
+
+✓ Mobile install support
+
+✓ PWA configuration
+
+✓ Netlify deployment compatibility
+
+✓ Cloudflare compatibility
+
+✓ Fully responsive Per

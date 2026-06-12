@@ -1,0 +1,122 @@
+TASK: Replace Existing Logo with New Official N&B Tennis Academy Logo
+
+GOAL:
+Use the uploaded logo image as the ONLY official logo across the entire website and PWA.
+
+LOGO SOURCE:
+Use the uploaded N&B Tennis Academy logo image provided in this chat.
+
+REQUIREMENTS:
+
+HEADER
+
+* Replace the current NB logo with the uploaded N&B Tennis Academy logo
+* Keep existing header layout unchanged
+* Logo must be responsive
+* Clicking the logo should navigate to Home (/)
+
+FOOTER
+
+* Replace any existing logo with the uploaded logo
+* Maintain existing spacing and alignment
+
+ABOUT SECTION
+
+* Use the uploaded logo where branding appears
+* Do not duplicate logos unnecessarily
+
+PWA / MOBILE INSTALL ICONS
+
+IMPORTANT:
+
+Use the uploaded logo as the official application icon.
+
+Generate and replace:
+
+/public/icons/icon-180.png
+/public/icons/icon-192.png
+/public/icons/icon-512.png
+
+Requirements:
+
+* Crop and center the logo correctly
+* White background
+* High quality PNG
+* No distortion
+* No stretching
+* Logo must remain sharp on iPhone and Android
+
+MANIFEST.JSON
+
+Update icons to use the new generated logo icons.
+
+Ensure:
+
+{
+“name”: “NB Tennis”,
+“short_name”: “NB Tennis”,
+“start_url”: “/”,
+“display”: “standalone”,
+“background_color”: “#FFF8EF”,
+“theme_color”: “#E98A3A”,
+“icons”: [
+{
+“src”: “/icons/icon-192.png”,
+“sizes”: “192x192”,
+“type”: “image/png”
+},
+{
+“src”: “/icons/icon-512.png”,
+“sizes”: “512x512”,
+“type”: “image/png”
+}
+]
+}
+
+INDEX.HTML
+
+Ensure these tags exist:
+
+<link rel="apple-touch-icon" sizes="180x180" href="/icons/icon-180.png" />
+<meta name="apple-mobile-web-app-title" content="NB Tennis" />
+<meta name="application-name" content="NB Tennis" />
+
+PWA BEHAVIOR
+
+When users select:
+
+iPhone Safari → Share → Add to Home Screen
+
+OR
+
+Android Chrome → Install App
+
+The installed icon must be the uploaded N&B Tennis Academy logo.
+
+DO NOT:
+
+* Do not change colors of the website
+* Do not modify layout
+* Do not modify routing
+* Do not modify WhatsApp integration
+* Do not modify Instagram integration
+* Do not create a new logo
+* Do not redesign branding
+
+ONLY replace all existing logos and PWA icons with the uploaded official N&B Tennis Academy logo.
+
+FINAL CHECK:
+
+✓ Header logo updated
+
+✓ Footer logo updated
+
+✓ PWA icons updated
+
+✓ iOS Home Screen icon updated
+
+✓ Android Install icon updated
+
+✓ Favicon updated
+
+✓ Branding consistent across entire application
