@@ -7,3 +7,4 @@
   NODE_VERSION = "22"
   NETLIFY_USE_PNPM = "true"
   PNPM_FLAGS = "--no-frozen-lockfile"
+  PORT = "5173"
