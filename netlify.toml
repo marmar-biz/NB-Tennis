@@ -1,7 +1,7 @@
 [build]
   base = "nb-tennis"
   command = "pnpm install --no-frozen-lockfile && pnpm build"
-  publish = "dist"
+  publish = "nb-tennis/dist"
 
 [build.environment]
   PNPM_FLAGS = "--no-frozen-lockfile"
