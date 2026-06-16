@@ -1,0 +1,6 @@
+[build]
+  command = "corepack enable && pnpm install --no-frozen-lockfile && pnpm --filter @workspace/mockup-sandbox build"
+  publish = "mockup-sandbox/dist"
+
+[build.environment]
+  PNPM_FLAGS = "--no-frozen-lockfile"
