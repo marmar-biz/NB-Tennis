@@ -1,5 +1,5 @@
 [build]
-  command = "corepack enable && pnpm install --no-frozen-lockfile --prod=false && cd nb-tennis && pnpm exec vite build"
+  command = "corepack enable && pnpm install --no-frozen-lockfile --prod=false && cd nb-tennis && pnpm build"
   publish = "nb-tennis/dist"
 
 [build.environment]
