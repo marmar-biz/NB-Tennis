@@ -39,7 +39,6 @@ packages:
   - lib/*
   - lib/integrations/*
   - scripts
-  - mockup-sandbox
   - nb-tennis
 
 catalog:
