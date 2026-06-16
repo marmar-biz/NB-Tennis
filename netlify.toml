@@ -1,5 +1,5 @@
 [build]
-  command = "rm -f pnpm-lock.yaml && corepack enable && pnpm install --no-frozen-lockfile --prod=false && pnpm --filter @workspace/nb-tennis build"
+  command = "corepack enable && pnpm install --no-frozen-lockfile --prod=false && pnpm --filter @workspace/nb-tennis build"
   publish = "nb-tennis/dist"
 
 [build.environment]
