@@ -1,6 +1,7 @@
 [build]
-  command = "corepack enable && pnpm install --no-frozen-lockfile --prod=false && pnpm --filter @workspace/nb-tennis build"
-  publish = "nb-tennis/dist"
+  base = "nb-tennis"
+  command = "corepack enable && pnpm install --no-frozen-lockfile --prod=false && pnpm build"
+  publish = "dist"
 
 [build.environment]
   NODE_VERSION = "22"
