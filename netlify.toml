@@ -1,11 +1,11 @@
 [build]
-  base = "nb-tennis"
-  command = "corepack enable && pnpm build"
-  publish = "dist"
+base = "nb-tennis"
+command = "corepack enable && pnpm install --no-frozen-lockfile && pnpm build"
+publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "22"
-  NETLIFY_USE_PNPM = "true"
-  PNPM_FLAGS = "--no-frozen-lockfile"
-  PORT = "5173"
-  BASE_PATH = "/"
+NODE_VERSION = "22"
+NETLIFY_USE_PNPM = "true"
+PNPM_FLAGS = "--no-frozen-lockfile"
+PORT = "5173"
+BASE_PATH = "/"
