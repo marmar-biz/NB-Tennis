@@ -8,3 +8,4 @@
   NETLIFY_USE_PNPM = "true"
   PNPM_FLAGS = "--no-frozen-lockfile"
   PORT = "5173"
+  BASE_PATH = "/"
